@@ -44,6 +44,8 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/bulma',
+    '@nuxtjs/pwa'
   ],
 
   /*
