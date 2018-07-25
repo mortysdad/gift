@@ -1,6 +1,5 @@
 const pkg = require('./package')
 
-const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   mode: 'spa',
@@ -30,14 +29,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'vuetify/src/stylus/main.styl'
+    
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    
   ],
 
   /*
@@ -51,19 +50,21 @@ module.exports = {
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      
-      if (ctx.isServer) {
-        config.externals = [
-          nodeExternals({
-            whitelist: [/^vuetify/]
-          })
-        ]
+ build: {
+  postcss: {
+    plugins: {
+      'postcss-cssnext': {
+        features: {
+          customProperties: false
+        }
       }
     }
+  },
+  /*
+  ** You can extend webpack config here
+  */
+  extend(config, ctx) {
+    
   }
+}
 }
