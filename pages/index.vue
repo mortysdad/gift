@@ -11,7 +11,7 @@
       <h2 class="twenty-one block">2</h2>
       <img class="image block" src="~/assets/yesha.jpg"><h2 class="twenty-one block"></h2>
     </div>
-    <h1 class="bday">Happy Birthday <a href="https://twitter.com/drpatil78/">@drpatil78</a></h1>
+    <h1 class="bday">Happy Birthday Yeshuu</h1>
   </div>
 
 </div>
