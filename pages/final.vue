@@ -9,7 +9,7 @@
   <div class="overlay-static">    
     <div class="inline-blocks">
       <h2 class="twenty-one block">2</h2>
-      <img class="image block" src="~/assets/yesha.jpg"><h2 class="twenty-one block"></h2>
+      <img class="image block" src="https://pbs.twimg.com/profile_images/598530118873550849/JpypZ9M2.jpg"><h2 class="twenty-one block"></h2>
     </div>
     <h1 class="bday">Happy Birthday <a href="https://twitter.com/drpatil78/">@drpatil78</a></h1>
   </div>
@@ -80,7 +80,7 @@ body {
   margin: 0;
   background: #131313;
   overflow: hidden;
-  background: url("~/assets/background.jpg");
+  background: url("https://i.stack.imgur.com/okgSI.jpg");
   background-position: center center;
   background-size: contain;
 }
@@ -95,5 +95,8 @@ a {
   z-index: 1000;
   margin-bottom: 100px;
 }
+
+
+
 </style>
 >

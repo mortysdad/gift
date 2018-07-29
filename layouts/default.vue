@@ -1,15 +1,15 @@
 <template>
   <div>
-    <navbar></navbar>
+    <Navbar></Navbar>
     <nuxt/>
   </div>
 </template>
 
 <script>
-  import Navigation from '~/components/Navigation.vue'
+  import Navbar from '../components/Navbar'
   export default {
     components: {
-      Navigation
+      Navbar
     }
   }
 </script>
