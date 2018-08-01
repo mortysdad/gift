@@ -44,8 +44,36 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/bulma',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+      
   ],
+  
+    manifest: {
+      name: 'Happy Birthday',
+      display: "standalone",
+      orientation: "portrait",
+      background_color: "#f5f5f5",
+      theme_color: "#29434d",
+      icons:[
+        {
+          src: '~/static/icons/android-chrome-192x192.png',
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: '~/static/icons/android-chrome-384x384.png',
+          sizes: '384x384',
+          type: 'image/png'
+        },
+        {
+          src: '~/static/icons/icon.png',
+          sizes: '720x720',
+          type: 'image/png'
+        }
+          
+      ]
+    },
+  
 
   /*
   ** Build configuration
