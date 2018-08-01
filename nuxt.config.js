@@ -54,24 +54,7 @@ module.exports = {
       orientation: "portrait",
       background_color: "#f5f5f5",
       theme_color: "#29434d",
-      icons:[
-        {
-          src: '~/assets/icons/android-chrome-192x192.png',
-          sizes: '192x192',
-          type: 'image/png'
-        },
-        {
-          src: '~/assets/icons/android-chrome-384x384.png',
-          sizes: '384x384',
-          type: 'image/png'
-        },
-        {
-          src: '~/assets/icons/icon.png',
-          sizes: '720x720',
-          type: 'image/png'
-        }
-          
-      ]
+     
     },
   
 
