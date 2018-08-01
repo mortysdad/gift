@@ -56,17 +56,17 @@ module.exports = {
       theme_color: "#29434d",
       icons:[
         {
-          src: '~/static/icons/android-chrome-192x192.png',
+          src: '~/assets/icons/android-chrome-192x192.png',
           sizes: '192x192',
           type: 'image/png'
         },
         {
-          src: '~/static/icons/android-chrome-384x384.png',
+          src: '~/assets/icons/android-chrome-384x384.png',
           sizes: '384x384',
           type: 'image/png'
         },
         {
-          src: '~/static/icons/icon.png',
+          src: '~/assets/icons/icon.png',
           sizes: '720x720',
           type: 'image/png'
         }
