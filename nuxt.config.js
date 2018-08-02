@@ -53,10 +53,11 @@ module.exports = {
       display: "standalone",
       orientation: "portrait",
       background_color: "#f5f5f5",
-      theme_color: "#29434d",
+      theme_color: "#29434d"
      
     },
-  
+
+   
 
   /*
   ** Build configuration

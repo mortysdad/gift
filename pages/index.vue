@@ -1,21 +1,33 @@
 <<template>
     <section>
+    
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:100,300' rel='stylesheet' type='text/css'>
     
 <div class="cover super-centered-container">
-  <canvas id="can">Get a browser</canvas>
   
+  <canvas id="can">Get a browser
     
+  </canvas>
+  
+
   <div class="overlay-static">    
     <div class="inline-blocks">
       <h2 class="twenty-one block">2</h2>
       <img class="image block" src="~/assets/yesha.jpg"><h2 class="twenty-one block"></h2>
     </div>
-    <h1 class="bday">Happy Birthday Yesha</h1>
+    <h1 class="bday">Happy Birthday Yeshuu</h1>
+    <div class="links">
+        
+        
+         <nuxt-link class="button is-medium is-rounded is-info" target="_blank" to="/foryou">Our Love Story</nuxt-link>
+       
+</div>
   </div>
 
 </div>
+ 
 </section>
+
 </template>>
 
 <style>
@@ -50,7 +62,7 @@
 }
 
 .cover {
-  background: rgba(0, 0, 0, 0.82);
+  background: rgba(0, 0, 0, 0.75);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -95,5 +107,17 @@ a {
   z-index: 1000;
   margin-bottom: 100px;
 }
+.links
+{
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 </style>
 >
+
+
