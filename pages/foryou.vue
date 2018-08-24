@@ -25,7 +25,7 @@
    <li class="timeline-item is-danger">
     <div class="timeline-tag"></div>
     <div class="timeline-content">
-      <p class="heading">6 June 2017</p>
+      <p class="heading">6 June 2016</p>
       <p> You Proposed.</p>
       </div>
   </li>

@@ -19,7 +19,7 @@
     <div class="links">
         
         
-         <nuxt-link class="button is-medium is-rounded is-info" target="_blank" to="/foryou">Our Love Story</nuxt-link>
+         <nuxt-link class="button is-medium is-rounded is-info" target="_blank"  to="/foryou">Our Love Story</nuxt-link>
        
 </div>
   </div>

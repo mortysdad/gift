@@ -50,6 +50,7 @@ module.exports = {
   
     manifest: {
       name: 'Happy Birthday',
+      
       display: "standalone",
       orientation: "portrait",
       background_color: "#f5f5f5",
