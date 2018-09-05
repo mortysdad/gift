@@ -15,13 +15,8 @@
       <h2 class="twenty-one block">2</h2>
       <img class="image block" src="~/assets/yesha.jpg"><h2 class="twenty-one block"></h2>
     </div>
-    <h1 class="bday">Happy Birthday Yeshuu</h1>
-    <div class="links">
-        
-        
-         <nuxt-link class="button is-medium is-rounded is-info" target="_blank"  to="/foryou">Our Love Story</nuxt-link>
-       
-</div>
+    <h1 class="bday">Happy Birthday Yesha</h1>
+    
   </div>
 
 </div>
