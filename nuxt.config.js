@@ -44,6 +44,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/bulma',
+    '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
       
   ],
@@ -58,7 +59,16 @@ module.exports = {
      
     },
 
-   
+    oneSignal: {
+      init: {
+        appId: '498c4441-6ce1-4382-8f74-c5b4d6435386',
+        allowLocalhostAsSecureOrigin: true,
+        persistNotification: true,
+        welcomeNotification: {
+            disable: false
+        }
+      }
+    },
 
   /*
   ** Build configuration
