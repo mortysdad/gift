@@ -1,3 +1,86 @@
 <<template>
-    <div class='onesignal-customlink-container'></div>
+<section>
+    <section class="cmyk">
+  <span>Tech</span>
+</section>
+
+<section class="skewed">
+  <span>Non-Tech</span>
+</section>
+
+
+<section class="thin-shade">
+  <span>Workshop</span>
+</section>
+</section>
 </template>>
+
+
+>
+
+<style lang="scss" scoped>
+section {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 80px;
+}
+
+span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// ----------------------------------------------------------------------
+
+.cmyk {
+  background: url(//stephy.mccdgm.net/images/patterns/lightpaperfibers.png);
+}
+
+.cmyk span {
+  color: 000;
+  font-family: 'Fredoka One', sans-serif;
+  text-shadow:  0.25rem -0.25rem rgba(magenta, 0.75),
+               -0.25rem -0.25rem rgba(cyan, 0.75),
+                0        0.5rem  rgba(yellow, 0.75);  
+}
+
+// ----------------------------------------------------------------------
+
+.skewed {
+  background: url(//stephy.mccdgm.net/images/patterns/dark_wood.png) #2b2b2b;  
+}
+
+.skewed span {
+  font-family: Oswald, sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
+  padding: 0 25px; /* to extend the border past the text */
+  margin: 80px 10px;
+  background: #FFDF00;
+  box-shadow: 0 0 0px 10px #FFDF00;
+  border: 10px solid #fff;
+  transform: rotate(-22.5deg) skew(-22.5deg);
+}
+
+// ----------------------------------------------------------------------
+
+.thin-shade {
+  background: #89DFB8;
+  font: 70px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  padding-top: 10x;
+  margin-top: 10px;
+  color: #F7EB98;
+  text-shadow: -4px 4px 0 #89DFB8,
+				      -6px 6px 0 rgba(255,255,255,0.5);
+}
+
+// ----------------------------------------------------------------------
+
+</style>
+>
