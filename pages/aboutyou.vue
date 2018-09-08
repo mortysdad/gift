@@ -29,6 +29,7 @@ section {
   text-align: center;
   padding: 20px 0;
   font-size: 80px;
+  background: #2b2b2b;
 }
 
 span {
