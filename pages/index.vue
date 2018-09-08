@@ -85,9 +85,9 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: #131313;
+  
   overflow: hidden;
-  background: url("~/assets/background.jpg");
+  background: url(~/assets/background.jpg);
   background-position: center center;
   background-size: contain;
 }
