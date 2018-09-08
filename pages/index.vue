@@ -16,7 +16,7 @@
       <img class="image block" src="~/assets/yesha.jpg"><h2 class="twenty-one block"></h2>
     </div>
     <h1 class="bday">Happy Birthday Yesha</h1>
-    
+    <nuxt-link to="/aboutyou" class="button--green" >Events</nuxt-link>
   </div>
 
 </div>
