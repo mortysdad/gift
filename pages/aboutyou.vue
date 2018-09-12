@@ -92,7 +92,7 @@ span {
 
 .thin-shade  {
   background: #89DFB8;
-  font: 65px 'Montserrat', sans-serif;
+  font: 60px 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0;
   padding-top: 60x;
@@ -103,8 +103,8 @@ span {
 				      -6px 6px 0 rgba(255,255,255,0.5);
 }
 .thin-shade span{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   
   
 }
