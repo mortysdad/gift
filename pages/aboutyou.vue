@@ -32,7 +32,7 @@ section {
   text-align: center;
   padding: 10px 0;
   font-size: 80px;
- background-color: #89DFB8;
+ 
 }
 
 span {
@@ -103,6 +103,7 @@ span {
 				      -6px 6px 0 rgba(255,255,255,0.5);
 }
 .thin-shade span{
+  padding-top: 30px;
   padding-bottom: 30px;
   
   
