@@ -3,6 +3,7 @@
     <section class="cmyk">
   <span><nuxt-link class="link1" to="/Technical">Technical</nuxt-link></span>
   <p><h1>Testing changes</h1></p>
+  <p><h2>branch changes</h2></p>
 </section>
 
 <section class="skewed">
